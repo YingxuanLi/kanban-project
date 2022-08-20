@@ -8,14 +8,14 @@ import {
   IconChevronDown
 } from '@yingxuanli/kanban-mangement-component'
 
-import { lightTheme } from './styles/themes'
+// import { lightTheme } from './styles/themes'
 import { ThemeProvider } from 'styled-components'
-
+import { darkTheme } from '@yingxuanli/kanban-mangement-component'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <ThemeProvider theme={lightTheme}>
+    <ThemeProvider theme={darkTheme}>
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
