@@ -1,9 +1,11 @@
 import { ThemeProvider } from 'styled-components'
-import { darkTheme } from '@yingxuanli/kanban-mangement-component'
+import { darkTheme, GlobalStyle } from '@yingxuanli/kanban-mangement-component'
+import Header from './Components/Header'
 function App() {
   return (
     <ThemeProvider theme={darkTheme}>
-      <h1>hello world</h1>
+      <GlobalStyle />
+      <Header />
     </ThemeProvider>
   )
 }
