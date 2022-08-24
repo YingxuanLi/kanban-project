@@ -1,4 +1,4 @@
-import { ThemeProvider, styled } from 'styled-components'
+import styled, { ThemeProvider } from 'styled-components'
 import { lightTheme, GlobalStyle } from '@yingxuanli/kanban-mangement-component'
 import Header from './Components/Header'
 
