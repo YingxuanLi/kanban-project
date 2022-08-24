@@ -11,6 +11,11 @@
     "type-check": "tsc",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,json}": [
+      "yarn lint"
+    ]
+  },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.4",
     "@yingxuanli/kanban-mangement-component": "0.0.1-beta.27",
@@ -35,6 +40,7 @@
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "pre-commit": "^1.2.2",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4",
