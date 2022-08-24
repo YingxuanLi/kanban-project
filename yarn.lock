@@ -623,10 +623,12 @@
     magic-string "^0.26.2"
     react-refresh "^0.14.0"
 
-"@yingxuanli/kanban-mangement-component@0.0.1-beta.25":
-  version "0.0.1-beta.25"
-  resolved "https://registry.npmjs.org/@yingxuanli/kanban-mangement-component/-/kanban-mangement-component-0.0.1-beta.25.tgz"
-  integrity sha512-9Kf5QBRWNH8nZOgf65MO4lVinkG1iK8rQ6Wsucf5hgm11reipr55neQWS9qL+YurTK28sHitZ4geUU2Wd0V4sA==
+"@yingxuanli/kanban-mangement-component@0.0.1-beta.27":
+  version "0.0.1-beta.27"
+  resolved "https://registry.yarnpkg.com/@yingxuanli/kanban-mangement-component/-/kanban-mangement-component-0.0.1-beta.27.tgz#9b6fa828f71ddda95a282d1f2f025add2fd50c26"
+  integrity sha512-OCYgMUhNYFllcZXaHpl69ihOB1rndh17+bsWAcHU+DnisIMHRnj8BGWcoCPoNjby5TlUVKl1SLmstlA16UWw5Q==
+  dependencies:
+    color "^4.2.3"
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
