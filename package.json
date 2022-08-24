@@ -46,6 +46,5 @@
     "typescript": "^4.7.4",
     "vite": "^3.0.8"
   },
-  "pre-commit": "yarn lint",
   "license": "MIT"
 }
