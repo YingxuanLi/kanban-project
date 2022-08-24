@@ -1,5 +1,6 @@
 import { ThemeProvider } from 'styled-components'
-import { lightTheme, GlobalStyle } from '@yingxuanli/kanban-mangement-component'
+import { lightTheme, 
+  GlobalStyle } from '@yingxuanli/kanban-mangement-component'
 import Header from './Components/Header'
 import styled from 'styled-components'
 function App() {
