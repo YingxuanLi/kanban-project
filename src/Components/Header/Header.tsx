@@ -1,6 +1,9 @@
-import { Button } from '@yingxuanli/kanban-mangement-component'
+import {
+  Button,
+  IconVerticalEllipsis
+} from '@yingxuanli/kanban-mangement-component'
 import styled from 'styled-components'
-import { IconVerticalEllipsis } from '@yingxuanli/kanban-mangement-component'
+
 import { Logo } from '../Logo/Logo'
 
 const ButtonWrapper = styled.div`
