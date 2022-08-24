@@ -1,11 +1,20 @@
 import { ThemeProvider } from 'styled-components'
-import { darkTheme, GlobalStyle } from '@yingxuanli/kanban-mangement-component'
+import {
+  lightTheme,
+  GlobalStyle
+} from '@yingxuanli/kanban-mangement-component'
 import Header from './Components/Header'
+import styled from 'styled-components'
 function App() {
+  const Wrapper = styled.div`
+    background-color: ${(props) => props.theme.backgroundTertiary};
+  `
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={lightTheme}>
       <GlobalStyle />
-      <Header />
+      <Wrapper>
+        <Header />
+      </Wrapper>
     </ThemeProvider>
   )
 }
