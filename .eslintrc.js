@@ -30,8 +30,13 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:prettier/recommended' // Make sure this is always the last element in the array.
   ],
-  plugins: ['prettier'],
+  plugins: ['prettier', 'simple-import-sort', 'import'],
   rules: {
+    'simple-import-sort/imports': 'warn',
+    'simple-import-sort/exports': 'warn',
+    'import/first': 'warn',
+    'import/newline-after-import': 'warn',
+    'import/no-duplicates': 'warn',
     'prettier/prettier': ['warn', {}, { usePrettierrc: true }],
     'react/react-in-jsx-scope': 'off',
     'jsx-a11y/accessible-emoji': 'off',
